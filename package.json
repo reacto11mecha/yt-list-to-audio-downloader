@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ffmetadata": "^1.7.0",
     "sanitize-filename": "^1.6.3",
     "youtube-dl-exec": "^1.2.4"
   }
