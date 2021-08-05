@@ -10,7 +10,7 @@ module.exports = (initialFileName, data, dir) =>
         "-i",
         initialFileName,
         "-metadata",
-        `title="${data.title}"`,
+        `title=${data.title}`,
         "-c",
         "copy",
         "edited.mp3",
