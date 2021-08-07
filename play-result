@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+SCRIPT_PATH="$(dirname "$0")";
+mpv $SCRIPT_PATH/result/**/*.mp3
