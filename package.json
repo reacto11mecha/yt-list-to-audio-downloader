@@ -1,16 +1,13 @@
 {
   "name": "yt-list-video-downloader",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ezra Khairan Permana",
   "dependencies": {
     "sanitize-filename": "^1.6.3",
-    "youtube-dl-exec": "^1.2.4"
+    "youtube-dl-exec": "^2.1.8"
   }
 }
