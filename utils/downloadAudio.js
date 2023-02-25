@@ -1,9 +1,10 @@
 const { spawn } = require("child_process");
+const { constants } = require("youtube-dl-exec")
 
 module.exports = (url, dir) =>
   new Promise((resolve) => {
     const download = spawn(
-      "youtube-dl",
+      constants.YOUTUBE_DL_PATH,
       ["--extract-audio", "--audio-format", "mp3", url],
       { cwd: dir }
     );
