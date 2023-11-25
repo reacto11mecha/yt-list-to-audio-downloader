@@ -8,6 +8,6 @@
   "author": "Ezra Khairan Permana",
   "dependencies": {
     "sanitize-filename": "^1.6.3",
-    "youtube-dl-exec": "^2.3.0"
+    "youtube-dl-exec": "^2.4.17"
   }
 }
