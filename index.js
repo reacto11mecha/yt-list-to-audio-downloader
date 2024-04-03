@@ -20,7 +20,9 @@ const mustDownloadVideos = (() => {
     return videos;
   }
 
-  const directories = fs.readdirSync(resultDir);
+  const directories = fs.readdirSync(resultDir)
+    .filter((item) => item !== ".stfolder")
+    .filter((item) => item !== ".stignore");
 
   const reservedIDS = videos.map((url) => ({ id: getYtID(url), url }));
   const alreadyIDS = directories.map((directory) => {
